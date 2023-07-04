@@ -1,13 +1,13 @@
-."D:\PMI_CRT\AutomatedProcedures\PowershellScripts\PreScriptConfiguration.ps1"
+$configFile = "D:\Projects\PMI\Configuration Files\PreScriptConfiguration.xml"
+$xml = [xml](Get-Content $configFile)
+$InnovatorUrl = $xml.config.sg_innovatorPageUrl
+$DatabaseName = $xml.config.sg_dbName
+$DatabaseUser = $xml.config.sg_arasUser
+$DatabasePassword = $xml.config.sg_arasPassword
+$PathToIomDll = $xml.config.sg_IOMDllPath
+$folderPath = $xml.config.sg_readingFolderPath
+$LogFolder = $xml.config.sg_logFolderpath
 
-	$InnovatorUrl =  $InnovatorPageUrl
-	$DatabaseName = $DBName
-	$DatabaseUser = $DBUser
-	$DatabasePassword = $Password
-	$PathToIomDll = $PathToIDll
-	$folderPath = $readingFolderPath
-	
-	$LogFolder = "D:\Log"
 	$LogFileName = "Log_$(Get-Date -Format 'yyyyMMdd').log"
 	$Global:LogFile = Join-Path -Path $LogFolder -ChildPath $LogFileName
 

@@ -1,0 +1,9 @@
+<config>
+<sg_innovatorPageUrl>http://localhost/Aras12</sg_innovatorPageUrl>
+<sg_dbName>Aras129OOTB</sg_dbName>
+<sg_arasUser>admin</sg_arasUser>
+<sg_arasPassword>innovator</sg_arasPassword>
+<sg_IOMDllPath>C:\Aras12\Innovator\Server\bin\IOM.dll</sg_IOMDllPath>
+<sg_readingFolderPath>D:\Projects\PMI\Pre Scripts</sg_readingFolderPath>
+<sg_logFolderpath>D:\Projects\PMI</sg_logFolderpath>
+</config>
