@@ -1,0 +1,5 @@
+$pathOfCodeTree = "D:\Log"
+$destinationServerPath = "\\192.168.0.112\C$\PMI_CRT"
+$serverUser = "Admin"
+$serverPassword = "SG1003"
+$localMachineLogFilePath = "D:\Log\gauravCopyLog.txt"

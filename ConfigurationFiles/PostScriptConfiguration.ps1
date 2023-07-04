@@ -1,0 +1,6 @@
+$InnovatorPageUrl = "http://localhost/InnovatorServer"
+$DBName = "InnovatorSolutions_12SP9OOTB"
+$DBUser = "admin"
+$Password = "innovator"
+$PathToIDll ="C:\Program Files (x86)\Aras\Innovator\Innovator\Server\bin\IOM.dll"
+$readingFolderPath = "D:\PMI_CRT\AutomatedProcedures\Post Script"
