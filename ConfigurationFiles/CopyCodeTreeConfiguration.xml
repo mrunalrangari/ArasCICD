@@ -1,0 +1,19 @@
+<config>
+  <folders>
+    <folder>
+      <sourcePath>C:\Logs\AgentServices</sourcePath>
+      <destinationPath>\\192.168.0.165\D$\Git</destinationPath>
+      <username>SGSLP085</username>
+      <password>sgslp085</password>
+      <localLogFilePath>C:\Logs\CopyLogs1.txt</localLogFilePath>
+    </folder>
+    <folder>
+      <sourcePath>C:\Logs\Vault</sourcePath>
+      <destinationPath>\\192.168.0.240\D$\Log</destinationPath>
+      <username>SGSLP108</username>
+      <password>sgslp108</password>
+      <localLogFilePath>C:\Logs\CopyLogs2.txt</localLogFilePath>
+    </folder>
+    <!-- Add more folders and their details as needed -->
+  </folders>
+</config>

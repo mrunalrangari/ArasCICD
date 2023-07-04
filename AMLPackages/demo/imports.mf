@@ -1,3 +1,0 @@
-<imports>
-  <package name="com.steepgraph.demo" path=".\Import" />
-</imports>
