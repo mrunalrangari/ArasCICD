@@ -1,0 +1,9 @@
+<config>
+<sg_consoleUpgradeFilePath>C:\Users\SGSLP085\Downloads\Aras12_Import_Export\Aras12_Import_Export\ConsoleUpgrade\ConsoleUpgrade.exe</sg_consoleUpgradeFilePath>
+<sg_innovatorPageUrl>http://localhost/Aras12</sg_innovatorPageUrl>
+<sg_dbName>Aras129OOTB</sg_dbName>
+<sg_arasUser>admin</sg_arasUser>
+<sg_arasPassword>innovator</sg_arasPassword>
+<sg_importPackagePath>D:\Projects\PMI\Exported File\demo\imports.mf</sg_importPackagePath>
+<sg_importDirectoryName>D:\Projects\PMI\Exported File\demo\Import</sg_importDirectoryName>
+</config>
